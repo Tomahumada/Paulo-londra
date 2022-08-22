@@ -1,0 +1,256 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("/img/fondopaulo.wabp.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titleHeader{
+    font-size: 31px;
+    font-family: 'Pacifico', cursive;
+    color: azure;
+}
+
+.titleHeader:hover{
+    color: bisque;
+    animation: animacion 1s infinite;
+}
+
+
+@keyframes animacion{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(2deg);
+    }
+
+    40% {
+        transform: rotate(-2deg);
+    }
+
+    60% {
+        transform: rotate(2deg);
+    }
+
+    80% {
+        transform: rotate(2deg);
+    }
+
+    100% {
+        transform: rotate(-2deg);
+    }
+}
+
+.nav-link{
+    color: azure;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: crimson;
+}
+
+h1{
+    font-size: 70px;
+    color: azure;
+    text-align: center;
+    margin: 130px 0 10px 0;
+}
+h2{
+    color: azure;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 50px;
+}
+
+.descripcion{
+    color: white;
+    text-align: center;
+    margin: 0 100px;
+}
+
+.ultimoSencillo{
+    width: 98%;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    color: azure;
+    text-align: center;
+    margin: 140px 0 20px 0;
+}
+
+.nocheDeNovela{
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    margin: 20px 0;
+}
+
+h4{
+    color: azure;
+    text-align: center;
+    margin: 80px 0 0 0;
+}
+
+.album{
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin: 20px 0;
+}
+
+.ultimoAlbum{
+    width: 98%;
+    text-align: center;
+}
+
+footer{
+    color: azure;
+    margin: 0 10px;
+}
+
+.nav-link-f, .centroFooter{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: aliceblue;
+    width: 60px;
+}
+
+
+.fondoSobreel{
+    background-image: url("/img/sobreel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carreraMusical{
+    margin: 100px 0;
+    text-align: center;
+}
+
+
+/*PAGINA DE CONTACTO*/
+
+.conFieldset{
+    text-align: center;
+}
+
+legend{
+    margin: 80px 0 20px 0;
+    color: #fff;
+}
+
+.label-contact{
+    color: #fff;
+}
+
+.formularioContacto {
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: 60%;
+    margin: auto auto 30px auto;
+    padding: 20px 0;
+}
+
+.btnContact {
+    margin: 10px 10px;
+    font-size: 15px;
+    color: #fff;
+    padding: 7px 20px;
+    border: #fff solid 3px;
+    border-radius: 10px 0;
+    background-color: #000;
+    transition: .2s;
+}
+
+.btnContact:hover {
+    background-color: #fff;
+    border: 3px solid #000;
+    color: #222222;
+    border-radius: 10px;
+}
+
+.input-contact {
+    background-color: #fff;
+    width: 45%;
+    margin: auto;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 7px;
+    transition: .2s;
+}
+
+.input-contact:hover {
+    background-color: #a0cef1;
+    color: #000;
+}
+
+.input-contact:focus {
+    background-color: #a2cef1;
+    color: #000;
+}
+
+.fondoContacto{
+    background-image: url("/img/fondoContacto.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.plataformas{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.fPlata{
+    margin: 10px 0;
+    width: 320px;
+    height: 200px;
+}
+
+@media(max-width:768px){
+    body, .fondoContacto, .fondoSobreel{
+        background-image: url("/img/fondocelular.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .titleHeader{
+        font-size: 20px;
+    }
+
+    h1, h2, h3{
+        font-size: 40px;
+    }
+    .descripcion{
+        font-size: 15px;
+        margin: 10px 10px;
+    }
+    .nocheDeNovela{
+        width: 250px;
+        height: 33vh;
+    }
+    .nav-link-f, .centroFooter, .copy{
+        font-size: 10px;
+    }
+    .formularioContacto{
+        width: 90%;
+    }
+    .input-contact{
+        width: 80%;
+    }
+}
