@@ -83,7 +83,7 @@ h3{
     font-size: 40px;
     color: azure;
     text-align: center;
-    margin: 140px 0 20px 0;
+    margin: 140px 0 10px 0;
 }
 
 .nocheDeNovela{
@@ -135,10 +135,36 @@ footer{
 }
 
 .carreraMusical{
-    margin: 100px 0;
+    margin: 100px 0 0 0;
     text-align: center;
 }
 
+.priSobreEl{
+    text-align: center;
+}
+
+.fotoPieDeBio{
+    text-align: center;
+    width: 45%;
+    height: 60vh;
+    margin: 10px 0;
+}
+
+.fotoPieDeCarrera{
+    width: 50%;
+    height: 60vh;
+    margin: 10px 0;
+}
+
+.bigligas{
+    text-align: center;
+}
+
+.pieDeBig{
+    width: 40%;
+    height: 50vh;
+    margin: 10px 0;
+}
 
 /*PAGINA DE CONTACTO*/
 
@@ -211,14 +237,18 @@ legend{
 }
 
 .plataformas{
+    align-items: center;
     text-align: center;
-    margin: 30px 0;
+    margin: auto;
 }
 
-.fPlata{
-    margin: 10px 0;
-    width: 320px;
-    height: 200px;
+
+.youtube{
+    width: 100%;
+}
+
+.spotify, .amazon {
+    width: 60%;
 }
 
 @media(max-width:768px){
@@ -233,9 +263,13 @@ legend{
         font-size: 20px;
     }
 
-    h1, h2, h3{
-        font-size: 40px;
+    h1, h2, h3, h4{
+        font-size: 35px;
     }
+    .titlePlata{
+        font-size: 30px;
+        margin: 100px 20px 0 20px;
+    } 
     .descripcion{
         font-size: 15px;
         margin: 10px 10px;
@@ -252,5 +286,21 @@ legend{
     }
     .input-contact{
         width: 80%;
+    }
+    .fotoPieDeBio{
+        text-align: center;
+        width: 90%;
+        height: 50vh;
+        margin: 10px 0;
+    }
+    .fotoPieDeCarrera{
+        width: 100%;
+        height: 55vh;
+        margin: 10px 0;
+    }
+    .pieDeBig{
+        width: 90%;
+        height: 50vh;
+        margin: 10px 0;
     }
 }
