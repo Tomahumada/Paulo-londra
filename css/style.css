@@ -290,17 +290,17 @@ legend{
     .fotoPieDeBio{
         text-align: center;
         width: 90%;
-        height: 50vh;
+        height: 40vh;
         margin: 10px 0;
     }
     .fotoPieDeCarrera{
         width: 100%;
-        height: 55vh;
+        height: 45vh;
         margin: 10px 0;
     }
     .pieDeBig{
         width: 90%;
-        height: 50vh;
+        height: 40vh;
         margin: 10px 0;
     }
 }
